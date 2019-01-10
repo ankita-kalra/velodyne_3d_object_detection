@@ -11,7 +11,9 @@ The way to run this file and the arguments mean as follows-
 
 ###### Usage- 
 
+```
 executable_name model_filename.pcd scene_filename.pcd [Options]
+```
  
 ###### descriptor_compares.cpp
 
@@ -46,8 +48,12 @@ The codes in python were mostly used for data prepartation and gives us general 
 
 ###### Usage-
 
+```
 filename.py [Options]
+```
 
+###### Options-
+```
 '--data_dir' - 'path to the directory containing all data' default- "It is set to a path, in our server and can be modified"
 '--out_dir' - 'the directory to store the output point cloud' - "It is set to a path, in our server and can be modified"
 '--sample_ratio' - downsampling ratio of the point cloud default is 1000
@@ -60,6 +66,7 @@ filename.py [Options]
 '--car_r' - decides the red intesity value of the points in object pasted onto the scene
 '--car_g' - decides the green intesity value of the points in object pasted onto the scene
 '--car_b' - decides the blue intesity value of the points in object pasted onto the scene
+```
 
 ###### read_norm_point_cars.py
 
